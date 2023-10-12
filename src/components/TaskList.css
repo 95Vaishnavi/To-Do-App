@@ -1,0 +1,46 @@
+/* TaskList.css */
+.task-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  
+  .task-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-card h3 {
+    font-size: 1.2em;
+    margin: 0;
+  }
+  
+  .task-card p {
+    font-size: 1em;
+    margin: 5px 0;
+  }
+  
+  .task-card .task-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .task-card button {
+    background-color:  #61164d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .task-card button:hover {
+    background-color: #580c53;
+  }
+  
